@@ -1,0 +1,67 @@
+/* Стиль для контейнера профілю */
+.profile {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  width: auto;
+}
+
+/* Стиль для опису користувача */
+.description {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.tag {
+  color: #888;
+}
+
+.location {
+  color: #888;
+}
+
+/* Стиль для статистики */
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.stats .label {
+  font-weight: bold;
+  color: #333;
+}
+
+.stats .quantity {
+  color: #777;
+}
