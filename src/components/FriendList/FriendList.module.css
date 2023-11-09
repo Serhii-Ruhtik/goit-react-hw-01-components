@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+.list > .item {
+  display: flex;
+  width: 250px;
+  padding: 20px;
+  background-color: #ffffc5;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.true {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.false {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.item > .avatar {
+  width: 100px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+.item > .name {
+  font-size: 36px;
+}
